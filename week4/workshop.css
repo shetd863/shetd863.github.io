@@ -1,0 +1,90 @@
+html{
+	font-size: 62.5% /* equal to 10px (when default browser size is 18px) */
+}
+body{
+	background-color: rgb(23,21,38);
+}
+
+.firefly{
+	position: absolute;
+	background-color: rgba(136, 106, 55, 0.05);
+	width: 2.8rem;
+	height: 1.8rem;
+	border-radius: 50%;
+	animation-iteration-count: infinite, infinite;
+	animation-timing-function: ease-in-out, ease-in-out;
+	filter: blur(3px);
+}
+
+@keyframes glow{
+	0%{ background-color: rgba(136, 106, 55, 0.05) }
+	50%{ background-color: rgba(223, 185, 69, 0.85) }
+	100%{ background-color: rgba(136, 106, 55, 0.05) }
+}
+
+@keyframes bug {
+	0% { left: 10%; top: 15%; }
+	50% { left: 75%; top: 70%; }
+	100% { left: 10%; top: 15%; }
+}
+
+body .firefly:nth-child(1) {
+	/* animation: bug 10s ease-in-out infinite; */
+	animation-name: bug, glow;
+	animation-duration: 10s, 4s;
+	transform: rotate(30deg);
+}
+
+body .firefly:nth-child(2) {
+	animation-name: bug2, glow;
+	animation-duration: 7s, 2s;
+	transform: rotate(120deg);
+}
+
+@keyframes bug2 {
+	0% { left: 60%; top: 85%; }
+	50% { left: 75%; top: 20%; }
+	100% { left: 60%; top: 85%; }
+}
+
+body .firefly:nth-child(3) {
+	animation-name: bug3, glow;
+	animation-duration: 5s, 1s;
+	animation-delay: 2s, 2s;
+	transform: rotate(85deg);
+}
+
+@keyframes bug3 {
+	0% { left: 15%; top: 95%; }
+	50% { left: 10%; top: 10%; }
+	100% { left: 15%; top: 95%; }
+}
+
+body .firefly:nth-child(4) {
+	animation-name: bug4, glow;
+	animation-duration: 5s, 5s;
+	transform: rotate(25deg);
+}
+
+@keyframes bug4 {
+	0% { left: 95%; top: 50%; }
+	50% { left: 50%; top: 10%; }
+	100% { left: 95%; top: 50%; }
+}
+
+body .firefly:nth-child(5) {
+	animation-name: bug5, glow;
+	animation-duration: 5s, 1s;
+	transform: rotate(145deg);
+}
+
+@keyframes bug5 {
+	0% { left: 52%; top: 75%; }
+	50% { left: 84%; top: 47%; }
+	100% { left: 52%; top: 75%; }
+}
+
+.firefly:hover{
+	cursor: grabbing;
+	animation-play-state: paused, running;
+}

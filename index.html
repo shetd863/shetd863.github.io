@@ -4,6 +4,7 @@
 
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>My Profile</title>
 		<link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Space+Mono:400,700&display=swap" rel="stylesheet">
@@ -15,10 +16,22 @@
 
 			}
 
+			@media (max-width: 320px) {
+  				h1 {
+    			font-size: 20px;
+  				}
+			}
+
 			p,h3,h4,ol,dl,details,em,small{
 				font-family: 'Space Mono', monospace;
 				font-size: 20px;
 				color:white;
+			}
+
+			@media (max-width: 320px) {
+  				p,h3,h4,ol,dl,details,em,small {
+    			font-size: 12px;
+  				}
 			}
 
 			html{

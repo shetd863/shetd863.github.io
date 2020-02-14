@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8"> <!-- allows non-latin languages e.g. emojis --> 
+		<title>Stars</title> <!-- embedded css --> 
+		<style type="text/css"> 
+			body{
+				height: 100vh;
+				background-color: black;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#circle{
+				overflow: hidden;
+				border: solid 5px white;
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+			}
+
+			.star{
+				color: white;
+				position: absolute;
+				font-size: 20px;
+			}
+
+			#circle:hover {
+				position: relative;
+				cursor: zoom-in;
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<div id="circle">
+			<span class="star" style="left: 80%; top: 10%">*</span>
+			<span class="star" style="left: 10%; top: 90%">*</span>
+			<span class="star" style="left: 45%; top: 73%">*</span>
+			<span class="star" style="left: 53%; top: 23%">*</span>
+			<span class="star" style="left: 88%; top: 89%">*</span>
+			<span class="star" style="left: 39%; top: 12%">*</span>
+			<span class="star" style="left: 10%; top: 10%">*</span>
+			<span class="star" style="left: 20%; top: 30%">*</span>
+			<span class="star" style="left: 43%; top: 91%">*</span>
+			<span class="star" style="left: 54%; top: 76%">*</span>
+			<span class="star" style="left: 58%; top: 31%">*</span>
+			<span class="star" style="left: 89%; top: 45%">*</span>
+
+			
+		</div>
+	</body>
+
+</html>

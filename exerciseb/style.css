@@ -1,0 +1,125 @@
+html{
+	font-size: 62.5% /* equal to 10px (when default browser size is 18px) */
+}
+
+body{
+	width: 100%;
+	height: 100% 100vh;
+	margin: 0px;
+	position: absolute;
+	background-color: purple;
+}
+
+.container {
+	position: relative;
+	width: max-content;
+	height: 100%;
+	align-items: center;
+}
+
+.screen {
+	width: 50rem;
+	height: 50rem;
+	border: solid 1rem orange;
+	position: fixed;
+	top:2rem;
+	left: 50rem;
+}
+
+.screenstill {
+	width: 50rem;
+	height: 50rem;
+	border: solid 1rem orange;
+	position: fixed;
+	left: 50rem;
+	top:2rem;
+}
+
+.screenstill:hover {
+	opacity:0;
+	top:2rem;
+}
+
+.slider{
+	z-index: 10000000000;
+	width: 1rem;
+	height: 20rem;
+	background-color: yellow;
+	position: fixed;
+	left: 25rem;
+}
+
+@keyframes slide {
+	0% { left: 25rem; }
+	100% { left: 124rem; }
+}
+
+.slider {
+	animation-name: slide;
+	animation-duration: 1.92s;
+	animation-direction: linear;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+#my-grid {
+    display: grid;
+    grid-template-rows: 20rem;
+    grid-template-columns: 20rem 20rem 20rem 20rem 20rem;
+    border-top: dashed 1rem white;
+    border-bottom: dashed 1rem white;
+    margin:0.50rem black;
+    width: max-content;
+    position: fixed;
+    background-color: black;
+    bottom: 2rem;
+    left: 25rem;
+}
+
+#box-1 {
+    /* start at 1st column and end at 3rd */
+    grid-column: 1;
+    grid-row: 1;
+    background: orange;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+#box-2 {
+    /* start at 1st column and end at 3rd */
+    grid-column: 2 ;
+    grid-row: 1;
+    background: orange;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+#box-3 {
+    /* start at 1st column and end at 3rd */
+    grid-column: 3;
+    grid-row: 1;
+    background: orange;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+#box-4 {
+    /* start at 1st column and end at 3rd */
+    grid-column: 4;
+    grid-row: 1;
+    background: orange;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+#box-5 {
+    /* start at 1st column and end at 3rd */
+    grid-column: 5;
+    grid-row: 1;
+    background: orange;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+

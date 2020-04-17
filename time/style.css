@@ -1,0 +1,54 @@
+body{
+	font-size: 62.5%;
+	font-family: Helvetica, san-serif; 
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	display: inline-flex;
+	justify-content: center;
+
+}
+
+#HongKong{
+	text-align: justify;
+	margin-top: 15%;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: max-content;
+	width: 20%;
+	font-size: 2.5rem;
+	color: #782c82;
+	padding: 1%;
+	background-image: url(hkflower.png);
+	background-size: cover;
+}
+
+#NewYork{
+	text-align: justify;
+	margin-top: 15%;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: max-content;
+	width: 20%;
+	font-size: 2.5rem;
+	color: #6cbf60;
+	padding: 1%;
+	background-image: url(nyflower.png);
+	background-size: cover;
+}
+
+#California{
+	text-align: justify;
+	margin-top: 15%;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: max-content;
+	width: 20%;
+	font-size: 2.5rem;
+	color: #e34805;
+	padding: 1%;
+	background-image: url(califlower.png);
+	background-size: cover;
+}

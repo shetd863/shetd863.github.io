@@ -1,0 +1,1174 @@
+
+html{
+	font-size: 62.5%; /* equal to 10px (when default browser size is 18px) */
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0rem;
+	padding: 0rem;	
+}
+
+.maroonbg{
+	background-color: #B3606F;
+	transition: 1s ease-in-out;
+}
+
+.pinkbg{
+	background-color: #F69FB1;
+	transition: 1s ease-in-out;
+}
+
+.bluebg{
+	background-color: #8ED8F8;
+	transition: 1s ease-in-out;
+}
+
+.tealbg{
+	background-color: #689DB3;
+	transition: 1s ease-in-out;
+}
+
+.title{
+	position: fixed;
+	top:40%;
+	left:33%;
+	font-family: ivymode, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3rem;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	color:#FBF281;
+}
+
+.rule1{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 1%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	/*box-shadow: 0.5px 0.5px 5px grey;*/
+	cursor: pointer;
+}
+/*
+.highzindex{
+	z-index: 11;
+}*/
+
+.lowzindex{
+	z-index: 5;
+}
+
+.rule1b{
+	top:10%;
+	left: 13%;
+	width: 20%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule2{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 12%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 1%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule2b{
+	right:15%;
+	top: 15%;
+	width: 25%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule3{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 14%;
+	left: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule3b{
+	width: 30%;
+	top: 20%;
+	left: 10%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule4{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 13%;
+	height: 7%;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 1%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule4b{
+	width: 20%;
+	height: 20%;
+	bottom: 12%;
+	left: 15%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule5{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 12%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule5b{
+	width: 10%;
+	right: 70%;
+	top: 30%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule6{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 20.5%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule6b{
+	width: 20%;
+	top: 15%;
+	right: 10%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule7{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 16%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule7b{
+	width: 20%;
+	bottom: 30%;
+	left: 20%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule8{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 25%;
+	left: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule8b{
+	width: 20%;
+	top: 30%;
+	left: 40%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule9{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 26.5%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule9b{
+	width: 20%;
+	top: 35%;
+	right: 30%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule10{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 23%;
+	bottom: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule10b{
+	width: 20%;
+	left: 30%;
+	bottom: 20%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule11{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 9%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 8%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule11b{
+	width: 20%;
+	top: 60%;
+	left: 27%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule12{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 19%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule12b{
+	width: 10%;
+	top: 40%;
+	left: 45%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule13{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 12%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule13b{
+	width: 10%;
+	top: 62%;
+	right: 20%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule14{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 0%;
+	top: 31%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule14b{
+	width: 30%;
+	left: 50%;
+	top: 31%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule15{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 13%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 35%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule15b{
+	width: 7%;
+	top: 35%;
+	right: 60%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule16{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 40%;
+	left: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule16b{
+	width: 50%;
+	top: 70%;
+	left: 10%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule17{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 14%;
+	height: 5%;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 30%;
+	bottom: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule17b{
+	left: 30%;
+	bottom: 10%;
+	height: max-content;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule18{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 26%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule18b{
+	width: 10%;
+	top: 10%;
+	left: 26%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule19{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 41%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule19b{
+	width: 10%;
+	top: 41%;
+	right: 17%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule20{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 47%;
+	left: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule20b{
+	width: 20%;
+	top: 47%;
+	left: 10%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule21{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 33%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule21b{
+	width: 5%;
+	top: 15%;
+	left: 33%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule22{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 46%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule22b{
+	width: 20%;
+	bottom: 10%;
+	left: 46%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule23{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 15%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 50%;
+	right: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule23b{
+	width: 40%;
+	top: 50%;
+	right: 5%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule24{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 58%;
+	left: 0%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule24b{
+	width: 40%;
+	top: 55%;
+	left: 5%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule25{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 3%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 40%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule25b{
+	width: 10%;
+	top: 10%;
+	left: 40%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule26{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 7%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 53%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule26b{
+	width: 30%;
+	bottom: 20%;
+	left: 53%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule27{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 6%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 45%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule27b{
+	width: 35%;
+	top: 15%;
+	left: 35%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule28{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 3%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	right: 0%;
+	top: 56%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule28b{
+	width: 5%;
+	right: 17%;
+	top: 28%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule29{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 3%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 53%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule29b{
+	width: 20%;
+	top: 25%;
+	left: 53%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule30{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 15%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 0%;
+	top: 66%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule30b{
+	width: 40%;
+	left: 12%;
+	top: 66%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule31{
+	background-color: #B3606F;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 4%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 62%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule31b{
+	width: 20%;
+	bottom: 10%;
+	left: 62%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule32{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	right: 0%;
+	top: 67%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule32b{
+	width: 20%;
+	right: 15%;
+	top: 57%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule33{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 0%;
+	top: 72%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule33b{
+	width: 65%;
+	left: 13%;
+	top: 73%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule34{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 58%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule34b{
+	width: 5%;
+	top: 30%;
+	left: 58%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule35{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 0%;
+	top: 78%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule35b{
+	width: 7%;
+	left: 18%;
+	top: 23%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule36{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 3%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	left: 0%;
+	top: 84%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule36b{
+	width: 20%;
+	left: 15%;
+	top: 74%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule37{
+	background-color: #8ED8F8;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 5%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 65%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule37b{
+	width: 40%;
+	top: 15%;
+	left: 35%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule38{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 7%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 68%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule38b{
+	width: 20%;
+	bottom: 40%;
+	left: 48%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule39{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 7%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 72%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule39b{
+	width: 30%;
+	top: 40%;
+	left: 22%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule40{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 7%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 77%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule40b{
+	width: 30%;
+	bottom: 50%;
+	left: 30%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule41{
+	background-color: #F69FB1;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 3%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0%;
+	left: 81%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule41b{
+	width: 20%;
+	top: 50%;
+	left: 21%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule42{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: max-content;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	right: 0%;
+	top: 74%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule42b{
+	width: 35%;
+	right: 15%;
+	top: 64%;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
+
+.rule43{
+	background-color: #689DB3;
+	font-family: miller-banner, serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.6rem;
+	width: 10%;
+	height: 15%;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	bottom: 0%;
+	left: 87%;
+	transition: 1s ease-in-out;
+	border: solid 1px #FBF281;
+	cursor: pointer;
+}
+
+.rule43b{
+	width: 5%;
+	bottom: 24%;
+	left: 57%;
+	height: max-content;
+	z-index: 10;
+	transition: 1s ease-in-out;
+}
